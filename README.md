@@ -32,21 +32,14 @@ For Linux and MacOS only:
 $ git clone git@github.com:bzhtux/go-gennames.git
 $ cd go-gennames
 
-# get dependancies
-$ go get ./...
-
 # build binary
 $ go build -o gen_names
+$ chmod u+x gen_names
 $ sudo cp gen_names ~/bin/
 
-# test gen_password binary
+# test gen_names
 $ gen_names
-.:HELP:.
---------
- -l		password's length (int)
- -n		numerics' count (int)
- -s		symbols' count (int)
-Example: gen_password -l 24 -n 6 -s 4
+joyful-goose
 ```
 
 # Docker
