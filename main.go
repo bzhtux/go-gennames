@@ -27,7 +27,7 @@ var left = []string{
 	"goofy",
 	"grumpy",
 	"genious",
-	"hangry",
+	"hungry",
 	"helpful",
 	"horrific",
 	"incredible",
